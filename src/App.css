@@ -1,0 +1,12 @@
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-icon-on-hover:hover .icon-to-rotate {
+  animation: rotate360 1s ease-in-out forwards;
+}
